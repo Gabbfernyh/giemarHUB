@@ -21,18 +21,22 @@
 
     <main class="container">
 
-        <aside class="profile-rail">
-            <div class="main-content">
-                <img src="" alt="" class="logoProfile">
-                <h1 class="text-center">Giemar</h1>
+        <aside class="profile-rail sec-0">
+            <div class="main-content text-center">
+                <img src="/src/assets/public/logo-light-bgnone.webp" height="170px" alt="Giemar logo"
+                    class="logoProfile" />
+                <h1 class="text-center mb-1">Giemar</h1>
                 <p class="text-center">- Pinturas & Reformas -</p>
-                <small class="text-center">
+                <small class="text-center mt-0 mb-2">
                     <p><i class="fa-solid fa-location-dot"></i> Diadema, São Paulo </p>
                 </small>
 
                 <div class="btns-actions mb-2 my-4">
                     <nav>
 
+                        <a href="#about" class="btn btn-outline-primary w-100 mb-2"><i
+                                class="fa-solid fa-user-circle"></i>
+                            Sobre</a>
                         <a href="#services" class="btn btn-outline-primary w-100 mb-2"><i
                                 class="fa-solid fa-palette"></i>
                             Serviços</a>
@@ -59,12 +63,53 @@
         </aside>
 
         <section class="hubContent">
+            <header class="about sec-2" id="about">
+                <div class="about-header">
+                    <span class="about-label">Sobre</span>
+                    <h2 class="about-title">Giemar Pinturas & Reformas</h2>
+                </div>
+                <div class="about-content">
+                    <p class="about-description">
+                        Com mais de 15 anos de experiência no mercado, a <strong>Giemar Pinturas & Reformas</strong> é
+                        referência em qualidade e excelência na região de Diadema, São Paulo. Especializamos em projetos
+                        residenciais e comerciais, oferecendo soluções personalizadas que transformam espaços em
+                        ambientes funcionais e esteticamente impressionantes.
+                    </p>
+                    <p class="about-description">
+                        Nossa equipe de profissionais altamente qualificados utiliza os melhores materiais do mercado e
+                        técnicas atualizadas para garantir resultados duradouros. Desde pinturas artísticas e
+                        impermeabilizações até reformas completas, executamos cada projeto com precisão, comprometimento
+                        e respeito aos prazos acordados.
+                    </p>
+                    <p class="about-description">
+                        Nós acreditamos que todo cliente merece um atendimento personalizado e transparente. Por isso,
+                        oferecemos consultoria gratuita, orçamentos sem compromisso e acompanhamento próximo durante
+                        toda a execução da obra. Sua satisfação é nosso maior sucesso!
+                    </p>
+                </div>
+            </header>
 
+            <section class="services sec-3" id="services">
+                <div class="services-header">
+                    <span class="services-label">Serviços</span>
+                    <h2 class="services-title">Nossos Serviços</h2>
+                </div>
+                <div class="services-content">
+                    <ul class="services-list">
+                        <li><i class="fa-solid fa-check"></i> Pintura Residencial e Comercial</li>
+                        <li><i class="fa-solid fa-check"></i> Reformas de Interiores e Exteriores</li>
+                        <li><i class="fa-solid fa-check"></i> Impermeabilização de Telhados e Paredes</li>
+                        <li><i class="fa-solid fa-check"></i> Pintura Decorativa e Artística</li>
+                        <li><i class="fa-solid fa-check"></i> Restauração de Fachadas</li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </main>
 
     <footer>
         <!-- place footer here -->
+        <!-- <img src="src/assets/public/logo-gray-nonebg.webp" alt="" srcset=""> -->
     </footer>
     <!-- Bootstrap JavaScript Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
